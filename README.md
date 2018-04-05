@@ -7,11 +7,19 @@ Please visit BTC News Scrapper:
 
 ## Key Dependencies
   *Body-Parser - Stands as middleweare for incoming request bodies before reaching handlers
+  
   *Cheerio - Web Scrapping Tool
+  
   *Express - Server Router and Functions
+  
   *Express-handlebars - Front-end builder that negates need for multiple html pages
+  
   *Morgan - Logs server-side requests
+  
   *Mongoose - Database management
+  
   *Parallax - Transition Themes
+  
   *Request - Enables cheerio to accesss front-end code of particular website
+  
 
