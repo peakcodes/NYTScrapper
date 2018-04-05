@@ -1,0 +1,37 @@
+{{!-- JUMBOTRON --}}
+<div class="jumbotron jumbotron-fluid vertical-center parallax-index">
+    <div class="container">
+        <h1 id="jumbo" class="animated flash">Blockchain News Scraper</h1>
+        {{!--
+        <p>
+            <a class="btn btn-lg btn-index" href="/search" role="button">S E A R C H
+            </a>
+            <a class="btn btn-lg btn-index" href="/login" role="button">M Y &nbsp;M E D &nbsp; T R A X
+            </a>
+        </p> --}}
+    </div>
+</div>
+
+
+{{!-- Create Panel for each article result and saved --}}
+
+<div class="container-fluid" id="tall">
+    <div data-spy="scroll" data-target="#body" data-offset="0">
+        <div class="container-fluid parallax-results">
+        </div> {{! .parallax}}
+        <div class="row" id="results">
+            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" id="title"> <h3>
+                    </div>
+                    <div class="panel-body" id="summary">
+                    </div>
+                </div>
+            </div> {{! col 2}}
+        </div> {{! row 1}}
+
+
+
+    </div>
+</div>
