@@ -6,20 +6,20 @@ The BTC Scrapper is an application that captures content on the web from www.new
 Please visit BTC News Scrapper: 
 
 ## Key Dependencies
-  *Body-Parser - Stands as middleweare for incoming request bodies before reaching handlers
+  * Body-Parser - Stands as middleweare for incoming request bodies before reaching handlers
   
-  *Cheerio - Web Scrapping Tool
+  * Cheerio - Web Scrapping Tool
   
-  *Express - Server Router and Functions
+  * Express - Server Router and Functions
   
-  *Express-handlebars - Front-end builder that negates need for multiple html pages
+  * Express-handlebars - Front-end builder that negates need for multiple html pages
   
-  *Morgan - Logs server-side requests
+  * Morgan - Logs server-side requests
   
-  *Mongoose - Database management
+  * Mongoose - Database management
   
-  *Parallax - Transition Themes
+  * Parallax - Transition Themes
   
-  *Request - Enables cheerio to accesss front-end code of particular website
+  * Request - Enables cheerio to accesss front-end code of particular website
   
 
