@@ -3,7 +3,7 @@ var scrape = require("../scripts/scrape");
 
 module.exports = {
     scrapedHeadlines: function (req, res) {
-        // scrap nyt
+        // scrap btc
         return scrape().then(function (articles) {
             // insert articles into db
             return db.Headline.create(articles)

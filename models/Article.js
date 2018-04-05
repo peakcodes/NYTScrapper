@@ -25,7 +25,7 @@ var articleSchema = new Schema ({
 
     ArticleDate: {
         type: Date,
-        required: true,
+        default: "Date not available"
     },
 
     Status: {
@@ -47,7 +47,7 @@ var articleSchema = new Schema ({
 
 // Pass data into articles variable
 
-var Articles = mongoose.model("articles", articleSchema);
+var Article = mongoose.model("articles", articleSchema);
 
 // Export module
-module.export = Articles;
+module.export = Article;
