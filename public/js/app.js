@@ -5,12 +5,13 @@ $.getJSON("/articles", function(data) {
     // For each article
     for (var i = 0; i < data.length; i++) {
       // Display the articles from database on the page
-      $("#articles").append("<p data-id='" + data[i]._id + "'>" + data[i].title + "<br />" + data[i].summary + "</p>" + data[i].link + "<br />" + data[i].date);
+      $("#articles").append("<p data-id='" + data[i]._id + "'>" + data[i].title + "<br />" + data[i].summary + "</p>" + data[i].link + "<br />" + data[i].date) + <button type="button" id="save" class="btn btn-success">Save</button> + 
+      <button type="button" id="n" class="btn btn-info">Make Note</button>
     }
   });
   
   
-  // User clicks n tag to scrap 
+  // User clicks n tag to scrap notes 
   $(document).on("click", "n", function() {
     // Empty the notes from the note section
     $("#notes").empty();

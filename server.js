@@ -3,7 +3,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var handlebars = require("handlebars");
-var exphbs = require("handlebars-express");
+var exphbs = require("express-handlebars");
 
 // Require all models
 var Note = require("./models/Note.js");

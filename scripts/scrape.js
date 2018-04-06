@@ -14,23 +14,22 @@ var scrape = function () {
         var articles = []
 
         // Now, we grab every h2 within an article tag, and do the following:
-        $("div.post-module-thumb").each(function (i, element) {
+        $("figure.col-md-8").each(function (i, element) {
 
-            // Add the text and href of every link, and save them as properties of the result object
-            result.title = $(this)
-                .children("a")
+            articles.title = $(this)
+                .children("h2.a")
                 .text();
 
-            result.summary = $(this)
-                .children('a')
+            articles.summary = $(this)
+                .children('p.a')
                 .text();
 
-            result.link = $(this)
+            articles.link = $(this)
                 .children("a")
                 .attr("href");
 
-            result.date = $(this)
-                .children("a")
+            articles.date = $(this)
+                .children("div.span")
                 .text()
 
             if (title && summary && data) {

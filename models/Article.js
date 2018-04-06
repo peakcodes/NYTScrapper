@@ -6,7 +6,7 @@ var Schema = mongoose.schema;
 
 // Create new schema for articles
 
-var articleSchema = new Schema ({
+const articleSchema = new Schema({
 
     Title: {
         type: String,
@@ -34,14 +34,14 @@ var articleSchema = new Schema ({
     },
 
     isSaved: {
-        type: boolean,
+        type: Boolean,
         default: false
     },
 
-    Note: {
-        type: String,
-        default: Schema.Type.ObjectId
-    }
+    // Note: {
+    //     type: String,
+    //     default: Schema.Note.ObjectId
+    // }
 
 })
 
