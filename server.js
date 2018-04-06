@@ -11,6 +11,8 @@ var Article = require("./models/Article.js");
 var routes = require("./routes");
 const app = express();
 
+var PORT = process.env.PORT || 3000;
+
 // App configuration
 app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
